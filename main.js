@@ -76,7 +76,7 @@ function buildHomePage(displayUuid) {
             Get My VLESS Config
         </button>
         <p class="text-md text-gray-700 mt-6">
-            Join my Telegram channel for more updates: <a href="https://t.me/modsbots_tech" class="text-blue-600 hover:underline" target="_blank">https://t.me/modsbots_tech</a>
+            Join my LuGyi Telegram: <a href="https://t.me/LuGyiandYoteshinMovies" class="text-blue-600 hover:underline" target="_blank">https://t.me/iqowoq</a>
         </p>
     </div>
 
@@ -122,7 +122,7 @@ function buildHomePage(displayUuid) {
                 modalPort.textContent = serverPort;
                 modalHost.textContent = serverHost;
 
-                const uri = \`vless://\${serverUuid}@\${serverHost}:443?security=tls&fp=randomized&type=ws&host=\${serverHost}&encryption=none#Lade-By-ModsBots\`;
+                const uri = \`vless://\${serverUuid}@\${serverHost}:443?security=tls&fp=randomized&type=ws&host=\${serverHost}&encryption=none#Lade-By-Iqowoq\`;
                 vlessUri.value = uri;
 
                 vlessConfigModal.classList.remove('hidden');
@@ -204,7 +204,7 @@ const server = http.createServer((req, res) => {
                 uuid: uuid,
                 port: port,
                 host: hostname,
-                vless_uri: `vless://${uuid}@${hostname}:443?security=tls&fp=randomized&type=ws&host=${hostname}&encryption=none#Nothflank-By-ModsBots`
+                vless_uri: `vless://${uuid}@${hostname}:443?security=tls&fp=randomized&type=ws&host=${hostname}&encryption=none#Rail-By-Iqowoq`
             };
             const body = JSON.stringify(vlessConfig);
             res.writeHead(200, {
